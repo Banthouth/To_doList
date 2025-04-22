@@ -12,13 +12,14 @@ function criar(){
     divi.name = labela
    
     const botaoRemover = document.createElement("button")
-    botaoRemover.id = divi.id
-    botaoRemover.class = "divisoria"
+    botaoRemover.id = "botaoRemover"
+    botaoRemover.classList = "botaoRemover"
     botaoRemover.textContent = "X"
     botaoRemover.addEventListener("click", () => {divi.remove()})
 
 
     const desc = document.createElement("label")
+    desc.classList = "desc"
     divi.appendChild(quebraLinha)
     divi.appendChild(desc)
     desc.appendChild(document.createTextNode(labela))
@@ -33,7 +34,7 @@ function criar(){
     caixa.type = "checkbox"
     caixa.name = labela
     caixa.id = "divisoria"
-    caixa.class = "divisoria"
+    caixa.classList = "checkboxForm"
 
 
 }
