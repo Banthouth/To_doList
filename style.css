@@ -3,12 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
-    
     }
-    
     
     .corpo{
         background-color: white ;
@@ -22,13 +17,8 @@
         position: absolute;
         top: 20%;
         left: 25%;
-       
-    
-    
-    
-    
+
     }
-    
     
     .titulo{
         font-family: "Special Gothic Expanded One", sans-serif;
@@ -38,7 +28,6 @@
         justify-content: center;
         align-items: center;
     }
-    
     
     .botaoCriar{
         font-family: "Special Gothic Expanded One", sans-serif;
@@ -52,9 +41,6 @@
         right:40%;
         top: 31%;
     
-    
-    
-    
     }
     .labelaTexto{
         width: 50%;
@@ -64,8 +50,6 @@
         border-color: black;
         box-sizing: border-box;
         transition: width 0.4s ease-in-out;
-    
-    
     }
 
     .desc{
@@ -75,10 +59,9 @@
     }
 
     .checkboxForm{
-    background-color: #eee;
-    height: 25px;
-    width: 25px;
-
+        background-color: #eee;
+        height: 25px;
+        width: 25px;
 
     }
 
@@ -88,7 +71,5 @@
         padding: 8px 16px;
         border-radius: 10px;
         border-color: black;
-        
-
     }
     
