@@ -1,10 +1,24 @@
+let contador = 0
 function criar(){
 
 
+    
+    if (contador == 5){
+        alert("Número total de tarefas ultrapassado, assine o plano master para mais!")
+        return
+    }
+    
     const labela = document.getElementById("labelaTexto").value
+    if(labela == ""){
+        alert("Digite alguma coisa!!")
+        return
+    } else{
+        contador = contador + 1
+    }
     const caixa = document.createElement("input")
     const quebraLinha = document.createElement("br")
     const divi = document.createElement("div")
+    
 
 
     divi.class = "divisoria"
@@ -35,6 +49,9 @@ function criar(){
     caixa.name = labela
     caixa.id = "divisoria"
     caixa.classList = "checkboxForm"
+   
+
+    
 
 
 }

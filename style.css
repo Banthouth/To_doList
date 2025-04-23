@@ -7,6 +7,7 @@
     
     .corpo{
         background-color: white ;
+        box-shadow: 40px 40px;
         border-style: solid;
         border-width: 5px;
         border-radius: 20px;
@@ -37,11 +38,18 @@
         border-color: black;
         padding: 16px 32px;
         font-size: 16px;
-        position:fixed;
-        right:40%;
+        position:static;
+        right:50%;
         top: 31%;
     
     }
+
+    .botaoCriar:hover {
+        background-color: #002fff; /* Green */
+        color: white;
+       
+      }
+
     .labelaTexto{
         width: 50%;
         padding: 12px 20px;
@@ -72,4 +80,9 @@
         border-radius: 10px;
         border-color: black;
     }
+
+    .botaoRemover:hover {
+        background-color: #04AA6D; /* Green */
+        color: white;
+      }
     
