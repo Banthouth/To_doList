@@ -41,7 +41,6 @@ function remover(objeto, objeto2){
 }
 
 
-
 function criar(){
 
 
@@ -97,8 +96,7 @@ function criar(){
    
     const principal = document.getElementById("formulario")
     principal.appendChild(divi)
-    
-    
+ 
 }
 
 
